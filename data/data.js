@@ -26,6 +26,7 @@ export const data = [
     name: "PoderData",
     color: '#e45d25',
 		dates: {
+			"10/05/2022": { link: 'https://drive.google.com/file/d/1wVaNP47a2qkmEe6NgHyHOC_rvZX1F5tF/view?usp=sharing' },
 			"08/06/2022": { link: '' },
 			"22/06/2022": { link: '' },
 			"07/07/2022": { link: '' },
@@ -72,7 +73,7 @@ export const data = [
     color: '#404c8c',
 		dates: {
 			"11/05/2022": { link: 'https://drive.google.com/file/d/1i-9yoZ_Bo8fdiJsYsr3xJWI4aTvKrTr2/view?usp=sharing' },
-			"08/06/2022": { link: '' },
+			"08/06/2022": { link: 'https://drive.google.com/file/d/1PLEkRBHBWqlhw1ZyhuSf1zF4rnI49Jn-/view?usp=sharing' },
 			"08/07/2022": { link: '' },
 			"08/08/2022": { link: '' },
 			"25/08/2022": { link: '' },
