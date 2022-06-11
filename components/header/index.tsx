@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 const Header: React.FC = () => {
   return (
     <>
       <div>
-        <p>CronoSas</p>
+        <p>Central Política</p>
       </div>
       <nav>
         <a
@@ -12,6 +14,7 @@ const Header: React.FC = () => {
         >
           Estadão Dados
         </a>
+        <Link href="/tweets">Tweets</Link>
         <a
           href="https://www.poder360.com.br/pesquisas-de-opiniao/"
           target="_blank"

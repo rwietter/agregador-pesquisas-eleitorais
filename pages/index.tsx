@@ -6,18 +6,12 @@ import { data } from "../data/data";
 import { isAfter, parseISO } from "date-fns";
 import { Header } from "../components/header";
 
-interface DateProps {
-  [key: string]: {
-    link: string;
-  };
-}
-
 const Home: NextPage = () => {
   const date = new Date();
   return (
     <div className={styles.container}>
       <Head>
-        <title>Agregador de Pesquisas | CronoSas</title>
+        <title>Agregador de Pesquisas | Central Política</title>
         <meta
           name="description"
           content="cronograma de pesquisas eleitorais na integra"
@@ -50,7 +44,7 @@ const Home: NextPage = () => {
                       {after ? (
                         <div
                           className={styles.after}
-                          key={dateKey}
+                          key={link}
                           style={{ border: `2px dotted ${search.color}` }}
                         >
                           <p>{dateKey}</p>
@@ -74,30 +68,6 @@ const Home: NextPage = () => {
           );
         })}
       </main>
-      <section className={styles.tweets}>
-        <a
-          className="twitter-timeline"
-          href="https://twitter.com/CentralEleicoes?ref_src=twsrc%5Etfw"
-        >
-          Tweets by Central Eleicões
-        </a>
-        <script
-          async
-          src="https://platform.twitter.com/widgets.js"
-          charSet="utf-8"
-        ></script>
-        <a
-          className="twitter-timeline"
-          href="https://twitter.com/eixopolitico?ref_src=twsrc%5Etfw"
-        >
-          Tweets by Eixo Político
-        </a>{" "}
-        <script
-          async
-          src="https://platform.twitter.com/widgets.js"
-          charSet="utf-8"
-        ></script>
-      </section>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
