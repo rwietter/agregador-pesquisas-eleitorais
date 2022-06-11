@@ -74,7 +74,30 @@ const Home: NextPage = () => {
           );
         })}
       </main>
-
+      <section className={styles.tweets}>
+        <a
+          className="twitter-timeline"
+          href="https://twitter.com/CentralEleicoes?ref_src=twsrc%5Etfw"
+        >
+          Tweets by Central Eleicões
+        </a>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charSet="utf-8"
+        ></script>
+        <a
+          className="twitter-timeline"
+          href="https://twitter.com/eixopolitico?ref_src=twsrc%5Etfw"
+        >
+          Tweets by Eixo Político
+        </a>{" "}
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charSet="utf-8"
+        ></script>
+      </section>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
