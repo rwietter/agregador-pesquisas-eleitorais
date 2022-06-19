@@ -8,6 +8,7 @@ import { Header } from "../components/header";
 
 const Home: NextPage = () => {
   const date = new Date();
+
   return (
     <div className={styles.container}>
       <Head>
