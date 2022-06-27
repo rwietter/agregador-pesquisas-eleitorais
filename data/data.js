@@ -32,6 +32,7 @@ export const data = [
       "26/05/2022": {
         link: "https://drive.google.com/file/d/1ruylTdvjp5X1ms0GFZkytaeBbZ_WbjIe/view?usp=sharing",
       },
+      "23/06/2022": { link: "https://drive.google.com/file/d/1DMR3nRsHy0ruvg7j6EgPeyoEh8Li9t0E/view?usp=sharing" },
       "21/07/2022": { link: "" },
       "11/08/2022": { link: "" },
       "25/08/2022": { link: "" },
@@ -65,7 +66,7 @@ export const data = [
       "30/05/2022": {
         link: "https://drive.google.com/file/d/19oLNX-vPEobsXvPl7gu0Hw-oKj7aX65d/view?usp=sharing",
       },
-      "27/06/2022": { link: "" },
+      "27/06/2022": { link: "https://drive.google.com/file/d/16UGk4kahmymilwsjKm_28O0zFSwh3pzx/view?usp=sharing" },
       "25/07/2022": { link: "" },
       "29/08/2022": { link: "" },
       "12/09/2022": { link: "" },
@@ -82,7 +83,7 @@ export const data = [
       "08/06/2022": {
         link: "https://www.poder360.com.br/poderdata/poderdata-lula-tem-50-contra-40-de-bolsonaro-no-2o-turno/",
       },
-      "22/06/2022": { link: "" },
+      "22/06/2022": { link: "https://www.poder360.com.br/poderdata/lula-abre-17-pontos-sobre-bolsonaro-no-2o-turno-diz-poderdata/" },
       "07/07/2022": { link: "" },
       "21/07/2022": { link: "" },
       "04/08/2022": { link: "" },
